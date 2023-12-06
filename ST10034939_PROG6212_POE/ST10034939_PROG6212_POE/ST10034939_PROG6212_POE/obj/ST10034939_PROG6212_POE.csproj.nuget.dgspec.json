@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sethd\\OneDrive\\Desktop\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE.csproj": {}
+    "C:\\Users\\luker\\Desktop\\POE-FINAL-\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sethd\\OneDrive\\Desktop\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE.csproj": {
+    "C:\\Users\\luker\\Desktop\\POE-FINAL-\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sethd\\OneDrive\\Desktop\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE.csproj",
+        "projectUniqueName": "C:\\Users\\luker\\Desktop\\POE-FINAL-\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE.csproj",
         "projectName": "ST10034939_PROG6212_POE",
-        "projectPath": "C:\\Users\\sethd\\OneDrive\\Desktop\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE.csproj",
-        "packagesPath": "C:\\Users\\sethd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sethd\\OneDrive\\Desktop\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\obj\\",
+        "projectPath": "C:\\Users\\luker\\Desktop\\POE-FINAL-\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE.csproj",
+        "packagesPath": "C:\\Users\\luker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luker\\Desktop\\POE-FINAL-\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\ST10034939_PROG6212_POE\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sethd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

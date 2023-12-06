@@ -17,5 +17,7 @@
         <input asp-for="HoursStudied" type="number" class="form-control" />
     </div>
 
-    <button type="submit" class="btn btn-primary">Update Remaining Hours</button>
+    <form method="post" action="/ModulesController/RedirectToListView">
+        <button type="submit" class="btn btn-primary">Update Remaining Hours</button>
+    </form>
 </form>

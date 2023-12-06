@@ -16,7 +16,7 @@ namespace ST10034939_PROG6212_POE.Controllers
             using (var connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                string sql = "SELECT * FROM Modules"; // Modify the SQL query as needed
+                string sql = "SELECT * FROM Modules WHERE UserId = " + GlobalVariables.CurrentUserId; // Modify the SQL query as needed
                 using (var command = new SqlCommand(sql, connection))
                 {
                     using (var reader = command.ExecuteReader())
@@ -164,8 +164,70 @@ namespace ST10034939_PROG6212_POE.Controllers
                     }
                 }
             }
+        
+        [HttpPost]
+        public IActionResult RedirectToListView()
+        {
+            return RedirectToAction("ListModules", "Modules");
+        }
 
+        public class ModuleViewModel
+        {
+            public string Name { get; set; }
+            public double RemainingHours { get; set; }
+        }
+
+        private List<StudyRecord> GetStudyRecords()
+        {
+            var studyRecords = new List<StudyRecord>();
+            using (var connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string sql = "SELECT * FROM StudyRecords WHERE UserId = " + GlobalVariables.CurrentUserId; // Modify the SQL query as needed
+                using (var command = new SqlCommand(sql, connection))
+                {
+                    using (var reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            var record = new StudyRecord
+                            {
+                                // Assuming your StudyRecord model has these properties
+                                // Assign them from the reader based on your table's columns
+                                ModuleId = (int)reader["ModuleId"],
+                                Date = (DateTime)reader["Date"],
+                                HoursStudied = (double)reader["HoursStudied"],
+                                // Add other properties as needed
+                            };
+                            studyRecords.Add(record);
+                        }
+                    }
+                }
+            }
+            return studyRecords;
+        }
+
+
+        public IActionResult UpdateRemainingHours()
+        {
+            var modules = GetModules(); // Fetch modules from the database
+            var studyRecords = GetStudyRecords(); // Fetch study records from the database
+
+            var modulesWithRemainingHours = modules.Select(m => new ModuleViewModel
+            {
+                Name = m.Name,
+                RemainingHours = CalculateRemainingHours(m, studyRecords)
+            }).ToList();
+
+            return View(modulesWithRemainingHours);
+        }
+
+        private double CalculateRemainingHours(Module module)
+        {
+            // Your logic to calculate remaining hours
+            // This might involve fetching study records and performing calculations
         }
 
 
     }
+}

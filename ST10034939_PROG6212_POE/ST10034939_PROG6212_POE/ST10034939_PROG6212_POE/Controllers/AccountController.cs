@@ -3,8 +3,6 @@ using ST10034939_PROG6212_POE.Models;
 using System.Data.SqlClient;
 using System.Security.Cryptography;
 using System.Text;
-using System.Data.SqlClient;
-using Microsoft.Extensions.Logging;
 
 
 namespace ST10034939_PROG6212_POE.Controllers
@@ -80,8 +78,13 @@ namespace ST10034939_PROG6212_POE.Controllers
                                     // Login successful, use the userId as needed
                                     ViewBag.Message = "Login successful.";
 
+
+
+
                                     // Example: Store userId in ViewBag or pass it to another method
                                     ViewBag.UserId = userId;
+
+                                    return RedirectToAction("AddModule", "Modules");
                                 }
                             }
                             else
@@ -96,7 +99,7 @@ namespace ST10034939_PROG6212_POE.Controllers
                 }
             }
 
-            return View(model);
+            return View();
         }
 
         private string HashPassword(string password)

@@ -9,61 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ST10034939_PROG6212_POE
 build_property.RootNamespace = ST10034939_PROG6212_POE
-build_property.ProjectDir = C:\Users\sethd\OneDrive\Desktop\ST10034939_PROG6212_POE\ST10034939_PROG6212_POE\ST10034939_PROG6212_POE\
+build_property.ProjectDir = C:\Users\luker\Desktop\POE-FINAL-\ST10034939_PROG6212_POE\ST10034939_PROG6212_POE\ST10034939_PROG6212_POE\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\sethd\OneDrive\Desktop\ST10034939_PROG6212_POE\ST10034939_PROG6212_POE\ST10034939_PROG6212_POE
+build_property.MSBuildProjectDirectory = C:\Users\luker\Desktop\POE-FINAL-\ST10034939_PROG6212_POE\ST10034939_PROG6212_POE\ST10034939_PROG6212_POE
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/sethd/OneDrive/Desktop/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Account/Login.cshtml]
+[C:/Users/luker/Desktop/POE-FINAL-/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sethd/OneDrive/Desktop/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Home/Index.cshtml]
+[C:/Users/luker/Desktop/POE-FINAL-/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sethd/OneDrive/Desktop/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Home/Privacy.cshtml]
+[C:/Users/luker/Desktop/POE-FINAL-/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sethd/OneDrive/Desktop/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Modules/AddModule.cshtml]
+[C:/Users/luker/Desktop/POE-FINAL-/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Modules/AddModule.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxlc1xBZGRNb2R1bGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sethd/OneDrive/Desktop/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Modules/ListModules.cshtml]
+[C:/Users/luker/Desktop/POE-FINAL-/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Modules/ListModules.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxlc1xMaXN0TW9kdWxlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sethd/OneDrive/Desktop/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Modules/RecordStudyHours.cshtml]
+[C:/Users/luker/Desktop/POE-FINAL-/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Modules/RecordStudyHours.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxlc1xSZWNvcmRTdHVkeUhvdXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sethd/OneDrive/Desktop/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Modules/SetSemesterDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxlc1xTZXRTZW1lc3RlckRldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/sethd/OneDrive/Desktop/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Modules/UpdateHours.cshtml]
+[C:/Users/luker/Desktop/POE-FINAL-/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Modules/UpdateHours.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxlc1xVcGRhdGVIb3Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sethd/OneDrive/Desktop/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Shared/Error.cshtml]
+[C:/Users/luker/Desktop/POE-FINAL-/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Modules/UpdateRemainingHours.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxlc1xVcGRhdGVSZW1haW5pbmdIb3Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/luker/Desktop/POE-FINAL-/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sethd/OneDrive/Desktop/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/luker/Desktop/POE-FINAL-/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sethd/OneDrive/Desktop/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/_ViewImports.cshtml]
+[C:/Users/luker/Desktop/POE-FINAL-/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sethd/OneDrive/Desktop/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/_ViewStart.cshtml]
+[C:/Users/luker/Desktop/POE-FINAL-/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sethd/OneDrive/Desktop/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Shared/_Layout.cshtml]
+[C:/Users/luker/Desktop/POE-FINAL-/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/ST10034939_PROG6212_POE/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qzkiv6jxjr

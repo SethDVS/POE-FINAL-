@@ -1,0 +1,21 @@
+﻿@model ST10034939_PROG6212_POE.Models.StudyRecordViewModel
+
+@model List<ModuleViewModel>
+
+<table>
+    <thead>
+        <tr>
+            <th>Module Name</th>
+            <th>Remaining Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var module in Model)
+        {
+            <tr>
+                <td>@module.Name</td>
+                <td>@module.RemainingHours</td>
+            </tr>
+        }
+    </tbody>
+</table>

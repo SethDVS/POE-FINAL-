@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ST10034939_PROG6212_POE_PART_ONE
-build_property.ProjectDir = C:\Users\sethd\OneDrive\Desktop\vcnmb-prog6212-2023-poe-SethDVS-master\vcnmb-prog6212-2023-poe-SethDVS-master\ST10034939_PROG6212_POE_PART_ONE\ST10034939_PROG6212_POE_PART_ONE\
+build_property.ProjectDir = C:\Users\luker\Desktop\POE-FINAL-\vcnmb-prog6212-2023-poe-SethDVS-master\ST10034939_PROG6212_POE_PART_ONE\ST10034939_PROG6212_POE_PART_ONE\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

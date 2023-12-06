@@ -9,3 +9,16 @@ C:\Program Files (x86)\Work\Kuhl\vcnmb-prog6212-2023-poe-SethDVS\ST10034939_PROG
 C:\Program Files (x86)\Work\Kuhl\vcnmb-prog6212-2023-poe-SethDVS\ST10034939_PROG6212_POE_PART_ONE\TaskManager.Core\obj\Debug\net6.0\refint\TaskManager.Core.dll
 C:\Program Files (x86)\Work\Kuhl\vcnmb-prog6212-2023-poe-SethDVS\ST10034939_PROG6212_POE_PART_ONE\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.pdb
 C:\Program Files (x86)\Work\Kuhl\vcnmb-prog6212-2023-poe-SethDVS\ST10034939_PROG6212_POE_PART_ONE\TaskManager.Core\obj\Debug\net6.0\ref\TaskManager.Core.dll
+C:\Users\luker\Desktop\POE-FINAL-\vcnmb-prog6212-2023-poe-SethDVS-master\ST10034939_PROG6212_POE_PART_ONE\TaskManager.Core\bin\Debug\net6.0\TaskManager.Core.deps.json
+C:\Users\luker\Desktop\POE-FINAL-\vcnmb-prog6212-2023-poe-SethDVS-master\ST10034939_PROG6212_POE_PART_ONE\TaskManager.Core\bin\Debug\net6.0\TaskManager.Core.dll
+C:\Users\luker\Desktop\POE-FINAL-\vcnmb-prog6212-2023-poe-SethDVS-master\ST10034939_PROG6212_POE_PART_ONE\TaskManager.Core\bin\Debug\net6.0\TaskManager.Core.pdb
+C:\Users\luker\Desktop\POE-FINAL-\vcnmb-prog6212-2023-poe-SethDVS-master\ST10034939_PROG6212_POE_PART_ONE\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luker\Desktop\POE-FINAL-\vcnmb-prog6212-2023-poe-SethDVS-master\ST10034939_PROG6212_POE_PART_ONE\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.AssemblyInfoInputs.cache
+C:\Users\luker\Desktop\POE-FINAL-\vcnmb-prog6212-2023-poe-SethDVS-master\ST10034939_PROG6212_POE_PART_ONE\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.AssemblyInfo.cs
+C:\Users\luker\Desktop\POE-FINAL-\vcnmb-prog6212-2023-poe-SethDVS-master\ST10034939_PROG6212_POE_PART_ONE\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\luker\Desktop\POE-FINAL-\vcnmb-prog6212-2023-poe-SethDVS-master\ST10034939_PROG6212_POE_PART_ONE\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.sourcelink.json
+C:\Users\luker\Desktop\POE-FINAL-\vcnmb-prog6212-2023-poe-SethDVS-master\ST10034939_PROG6212_POE_PART_ONE\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.dll
+C:\Users\luker\Desktop\POE-FINAL-\vcnmb-prog6212-2023-poe-SethDVS-master\ST10034939_PROG6212_POE_PART_ONE\TaskManager.Core\obj\Debug\net6.0\refint\TaskManager.Core.dll
+C:\Users\luker\Desktop\POE-FINAL-\vcnmb-prog6212-2023-poe-SethDVS-master\ST10034939_PROG6212_POE_PART_ONE\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.pdb
+C:\Users\luker\Desktop\POE-FINAL-\vcnmb-prog6212-2023-poe-SethDVS-master\ST10034939_PROG6212_POE_PART_ONE\TaskManager.Core\obj\Debug\net6.0\ref\TaskManager.Core.dll
+C:\Users\luker\Desktop\POE-FINAL-\vcnmb-prog6212-2023-poe-SethDVS-master\ST10034939_PROG6212_POE_PART_ONE\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.csproj.AssemblyReference.cache

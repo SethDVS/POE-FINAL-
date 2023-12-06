@@ -21,3 +21,16 @@ C:\Users\sethd\OneDrive\Desktop\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\Tas
 C:\Users\sethd\OneDrive\Desktop\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\obj\Debug\net6.0\refint\TaskManager.Core.dll
 C:\Users\sethd\OneDrive\Desktop\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.pdb
 C:\Users\sethd\OneDrive\Desktop\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\obj\Debug\net6.0\ref\TaskManager.Core.dll
+C:\Users\luker\Desktop\POE-FINAL-\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\bin\Debug\net6.0\TaskManager.Core.deps.json
+C:\Users\luker\Desktop\POE-FINAL-\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\bin\Debug\net6.0\TaskManager.Core.dll
+C:\Users\luker\Desktop\POE-FINAL-\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\bin\Debug\net6.0\TaskManager.Core.pdb
+C:\Users\luker\Desktop\POE-FINAL-\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.csproj.AssemblyReference.cache
+C:\Users\luker\Desktop\POE-FINAL-\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luker\Desktop\POE-FINAL-\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.AssemblyInfoInputs.cache
+C:\Users\luker\Desktop\POE-FINAL-\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.AssemblyInfo.cs
+C:\Users\luker\Desktop\POE-FINAL-\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\luker\Desktop\POE-FINAL-\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.sourcelink.json
+C:\Users\luker\Desktop\POE-FINAL-\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.dll
+C:\Users\luker\Desktop\POE-FINAL-\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\obj\Debug\net6.0\refint\TaskManager.Core.dll
+C:\Users\luker\Desktop\POE-FINAL-\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\obj\Debug\net6.0\TaskManager.Core.pdb
+C:\Users\luker\Desktop\POE-FINAL-\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\obj\Debug\net6.0\ref\TaskManager.Core.dll

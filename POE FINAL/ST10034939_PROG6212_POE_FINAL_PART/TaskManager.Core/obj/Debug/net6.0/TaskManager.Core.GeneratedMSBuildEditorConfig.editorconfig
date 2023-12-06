@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TaskManager.Core
-build_property.ProjectDir = C:\Users\sethd\OneDrive\Desktop\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\
+build_property.ProjectDir = C:\Users\luker\Desktop\POE-FINAL-\POE FINAL\ST10034939_PROG6212_POE_FINAL_PART\TaskManager.Core\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
