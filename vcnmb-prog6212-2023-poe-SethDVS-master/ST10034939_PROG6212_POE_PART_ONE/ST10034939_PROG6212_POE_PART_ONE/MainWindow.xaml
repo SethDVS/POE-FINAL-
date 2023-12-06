@@ -1,0 +1,67 @@
+﻿<Window x:Class="ST10034939_PROG6212_POE_PART_ONE.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ST10034939_PROG6212_POE_PART_ONE"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="730" Width="802">
+    <Grid Margin="10">
+
+        <Label Content="Enter Program Code: " Margin="0,-1,616,0" VerticalAlignment="Top" />
+        <Label Content="Class hours per week:" Margin="0,123,600,0" VerticalAlignment="Top" />
+        <Label Content="Enter weeks in the semester:" Margin="0,89,600,0" VerticalAlignment="Top" />
+        <Label Content="Number of Credits:" Margin="-1,59,601,0" VerticalAlignment="Top" />
+
+        <TextBox x:Name="txtCode" Width="150" HorizontalAlignment="Left" VerticalAlignment="Top" Text="Prog6212" Margin="185,3,0,0"/>
+        <TextBox x:Name="txtName" Width="151" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="184,33,0,0" Text="Programming 2B"/>
+        <TextBox x:Name="txtCredits" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="185,67,0,0" Text="15"/>
+        <TextBox x:Name="txtWeeksSemester" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="185,97,0,0" Text="5"/>
+
+
+        <Label Content="Enter Program Name: " Margin="-1,29,616,0" VerticalAlignment="Top" />
+        <TextBox x:Name="txtWeeks" Margin="184,131,476,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.615" TextChanged="txtWeeks_TextChanged"/>
+
+        <Label Content="Enter start date for the semester:" Margin="0,158,591,0" VerticalAlignment="Top" />
+        <DatePicker x:Name="dpStartDate" Margin="196,160,418,0" VerticalAlignment="Top"/>
+
+
+        <Button Content="Add Module" Width="240" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="94,206,0,0" Click="AddModule_Click" RenderTransformOrigin="0.74,-1.432"/>
+
+
+        <ListView x:Name="ModulesList" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="608" Margin="-1,264,0,0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Code" DisplayMemberBinding="{Binding Code}" Width="100"/>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" Width="150"/>
+                    <GridViewColumn Header="Credits" DisplayMemberBinding="{Binding Credits}" Width="70"/>
+                    <GridViewColumn Header="Class Hours" DisplayMemberBinding="{Binding ClassHoursPerWeek}" Width="90"/>
+                    <GridViewColumn Header="Self Study Hours/Week" DisplayMemberBinding="{Binding SelfStudyHours}" Width="140"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <Label Content="Record Study Hours" Margin="17,369,467,0" VerticalAlignment="Top" />
+        <Label Content="Amount of hours:" Margin="10,429,640,0" VerticalAlignment="Top" />
+
+        <ComboBox x:Name="cmbModule" Width="150" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,395,0,0" />
+        <DatePicker x:Name="studyDate" Margin="186,394,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <TextBox x:Name="txtHoursStudied" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="168,433,0,0" Text="" RenderTransformOrigin="-0.04,0.559"/>
+        <Button Content="Record Hours" Width="278" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,460,0,0" Click="RecordHours_Click" />
+
+        <Button Content="Update Remaining Hours" Width="242" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="46,536,0,0" Click="UpdateRemainingHours_Click"/>
+
+
+        <DataGrid x:Name="RemainingHoursDataGrid" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="17,589,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Module" Binding="{Binding Name}" Width="200" />
+                <DataGridTextColumn Header="Remaining Hours" Binding="{Binding RemainingHours}" Width="150" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+        
+
+
+    </Grid>
+</Window>

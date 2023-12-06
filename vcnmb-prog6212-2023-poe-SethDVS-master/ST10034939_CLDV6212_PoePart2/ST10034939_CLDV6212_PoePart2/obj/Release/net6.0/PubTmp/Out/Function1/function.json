@@ -1,0 +1,15 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-4.2.0",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "queueTrigger",
+      "connection": "AzureWebJobsStorage",
+      "queueName": "messagequeue",
+      "name": "myQueueItem"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/ST10034939_CLDV6212_PoePart2.dll",
+  "entryPoint": "ST10034939_CLDV6212_PoePart2.Function1.Run"
+}

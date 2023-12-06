@@ -1,0 +1,31 @@
+﻿@model List<ST10034939_PROG6212_POE.Models.Module>
+
+@{
+    ViewData["Title"] = "Module List";
+}
+
+<h2>Module List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>Name</th>
+            <th>Credits</th>
+            <th>Class Hours Per Week</th>
+            <th>Self Study Hours/Week</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var module in Model)
+        {
+            <tr>
+                <td>@module.Code</td>
+                <td>@module.Name</td>
+                <td>@module.Credits</td>
+                <td>@module.ClassHoursPerWeek</td>
+                <td>@module.SelfStudyHours</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,29 @@
+﻿@model ST10034939_PROG6212_POE.Models.LoginViewModel
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-info">@ViewBag.Message</div>
+}
+
+
+<form asp-action="Login" method="post">
+    <div>
+        <label for="Username">Enter Username: </label>
+        <input type="text" id="Username" name="Username" required />
+    </div>
+
+    <div>
+        <label for="Password">Enter Password: </label>
+        <input type="password" id="Password" name="Password" required />
+    </div>
+
+    <div>
+        <label>Are you signing in or registering?</label>
+        <select asp-for="SelectedOption">
+            <option value="Login">Login</option>
+            <option value="Register">Register</option>
+        </select>
+    </div>
+
+    <button type="submit">Sign in/Register</button>
+</form>

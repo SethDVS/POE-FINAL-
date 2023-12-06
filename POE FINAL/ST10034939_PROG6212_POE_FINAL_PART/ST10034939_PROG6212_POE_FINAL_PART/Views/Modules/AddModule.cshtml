@@ -1,0 +1,10 @@
+﻿@model ModuleViewModel
+
+<form asp-action="AddModule" method="post">
+    <input asp-for="Code" />
+    <input asp-for="Name" />
+    <input asp-for="Credits" type="number" />
+    <input asp-for="ClassHoursPerWeek" type="number" />
+    <input asp-for="Weeks" type="number" />
+    <button type="submit">Add Module</button>
+</form>

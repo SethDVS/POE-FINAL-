@@ -1,0 +1,21 @@
+﻿@model ST10034939_PROG6212_POE.Models.StudyRecordViewModel
+
+@{
+    ViewData["Title"] = "Record Study Hours";
+}
+
+<h2>Record Study Hours</h2>
+
+<form asp-action="RecordStudyHours" method="post">
+    <div class="form-group">
+        <label asp-for="SelectedModuleId">Select Module</label>
+        <select asp-for="SelectedModuleId" asp-items="Model.Modules" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HoursStudied">Amount of Hours</label>
+        <input asp-for="HoursStudied" type="number" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update Remaining Hours</button>
+</form>
